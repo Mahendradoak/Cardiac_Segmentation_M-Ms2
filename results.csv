@@ -1,0 +1,3 @@
+Model,Architecture,Encoder,Best_Dice,Final_Train_Loss,Final_Val_Loss,Epochs
+UNet++_EfficientB4,UnetPlusPlus,efficientnet-b4,0.8712794130498714,0.15925722110870422,0.08575965269384059,30
+UNet_ResNet34,Unet,resnet34,0.8671075439814366,0.18080790129070187,0.08788533648476005,30

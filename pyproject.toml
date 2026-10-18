@@ -1,0 +1,20 @@
+[project]
+name = "cardiac-seg"
+version = "1.0.0"
+description = "LV, myocardium and RV segmentation on M&Ms-2 cardiac MRI with clinical (EDV/ESV/EF) evaluation"
+requires-python = ">=3.10"
+authors = [{ name = "Mahendra Sai Divi" }]
+
+[tool.setuptools]
+packages = ["cardiac_seg"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["archive"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501", "E741"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
